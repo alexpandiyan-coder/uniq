@@ -1,0 +1,27 @@
+
+
+
+.form-table{
+    margin: 3px;
+    width: 12%; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    outline: none; 
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+
+.form-table:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+
+}
+
+.form-table[disabled], .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
